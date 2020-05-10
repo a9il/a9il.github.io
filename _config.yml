@@ -86,3 +86,12 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-midnight
+
+staticman_url: https://a9il-github-io-staticman.herokuapp.com/v2/entry/a9il/a9il.github.io/master/comments
+
+# reCaptcha configuration info: the exact same site key and *encrypted* secret that you used in staticman.yml
+# I personally don't think the secret needs to be included in the generated site, but the staticman API bridge uses
+# it to ensure the site configuration and bridge configuration match (but why not just compare the site key?)
+reCaptcha:
+  siteKey: 6LewVPUUAAAAAPq4o723rxD4ivF3cXCWr3F5D90X
+  secret: mL0JWWl/PNG22M2yIlz/I8/6MOH0cpMBNOxMqD0ZzzD4VwIoyt0UCx0hmRQTJOXBqBid+L+rxiQzGGffuMrN2IwyTlcuxAH7JHvc4zID98/FWOyVU/JPB/tMrk0rn1KRUEupQMvY8g0nyR9nXPQk4lqETeC8qttqr7bc0VkSgVQ9P0BADEwSgn6rSWLJt7J03GsjOQETUptpoB/OiBZS309d0quzBvDaf1Ko2gt71Ii8PYCJrAE9bE9eQJ3lVL1fEUTWfan3EymeoGPUS2nsgy/tEDjcHUshlEVTlymTJibViwvqM1NAJfjjaEPJORQBQgoHzBchfq9kBtXR3aasGMJCgyl7yTg1+9NGgcSF3GTVTYpMVDTD+ZLu9CPPmABc0QkOLTyvD2QtcbMeyL4A18Ffkm10wj5284Keoyavi0G0MM8DP6hs37jbeGEdCBaN5A0Tif6FXJhOkmqv57JF4tomZ1t854vvN4gr8ieXztthG6IpSSPs+M/N6RVeC0lQRXzQ6bx+jVnMC9ZoIBnO5yfS/w2Sh/nlxVHA38OylXJIcq/vWGs+qxOZaP5X9Izf5ezBRMq9YYGeaQYqsqfvkBQCtj7Np6MI5M2omWs/a9oSQ5/QUJrcLkTQdnElEQMt6H7AA5189TUqfDK9oGPBiSD3l7/742tIO0X94kj43oY=

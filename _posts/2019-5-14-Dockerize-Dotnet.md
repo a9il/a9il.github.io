@@ -1,3 +1,9 @@
+---
+layout: post
+title: Dockerize .NET
+comments: true
+---
+
 Convert dotnet docker container to volume mount docker container dotnet runtime.  
 Default dockerfile for dotnet app:
 
