@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dockerize .NET
+title: Dockerize Dotnet
 comments: true
 ---
 
@@ -30,7 +30,8 @@ Build a docker image with:
 ```
 docker build -t my_dotnet_app .
 ```
-But you need to build an image and rerun the container with the new image every time the app is updated. Let's convert it to build image for dotnet runtime only.  
+But you need to build an image and rerun the container with the new image every time the app is updated.
+Let's convert it to build image for dotnet runtime only.
 Dockerfile:
 ```Dockerfile
 # Build runtime image
