@@ -20,29 +20,25 @@ layout: default
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
+    <div id="header">
+          <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <li class="downloads"><a href="{{ site.baseurl }}/">Blog</a></li>
+            <li class="downloads"><a href="{{ site.baseurl }}/about">About</a></li>
           </nav>
-        </header>
-      </div>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+    <div id="main" role="main" class="wrapper">
+      <section>
+        <div id="title">
+          <h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <p>{{ site.description }}</p>
+        </div>
+        {{ content }}
+      </section>
     </div>
 
-    <div class="wrapper-footer">
+    <div class="wrapper">
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
